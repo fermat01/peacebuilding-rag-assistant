@@ -32,12 +32,21 @@ The system separates three concerns:
 2. **Online RAG execution** — orchestrate conversations, retrieve evidence, generate grounded answers, and construct citations.
 3. **Quality evaluation** — measure retrieval and answer behavior independently of the serving path.
 
+<br>
 
-![System architecture](docs/images/architecture.png)
+<p align="center">
+  <img
+    src="docs/images/architecture.png"
+    alt="System architecture"
+    width="550"
+  />
+</p>
+
+
+<br>
 
 <details>
 <summary><strong>View detailed architecture diagram</strong></summary>
-
 
 ```mermaid
 flowchart TB
@@ -130,6 +139,8 @@ flowchart TB
     GENERATION -.-> MULTI
     GENERATION -.-> ROBUST
 ```
+</details>
+
 
 ### Architecture boundaries
 
@@ -153,7 +164,17 @@ For a deeper technical description, see [`docs/architecture.md`](docs/architectu
 ## Evaluation Snapshot
 
 
-![RAG evaluation overview](docs/images/evaluation-overview.png)
+<br>
+
+<p align="center">
+  <img
+    src="docs/images/evaluation-overview.png"
+    alt="RAG evaluation overview"
+    width="550"
+  />
+</p>
+
+<br>
 
 | Area | Result |
 |---|---:|
