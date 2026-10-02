@@ -159,7 +159,7 @@ Generation is accessed through a provider abstraction with Gemini and OpenAI imp
 **Quality path**  
 Evaluation is kept outside the serving path and measures retrieval, citations, groundedness, completeness/relevance, uncertainty, multilingual behavior, and robustness.
 
-For a deeper technical description, see [`docs/architecture.md`](docs/architecture.md).
+For a deeper technical description, see [`docs/architecture.md`](https://raw.githubusercontent.com/fermat01/peacebuilding-rag-assistant/main/docs/architecture.md).
 
 ## Evaluation Snapshot
 
@@ -190,7 +190,7 @@ For a deeper technical description, see [`docs/architecture.md`](docs/architectu
 
 > Evaluation results are measured on small, curated datasets designed for regression testing and architecture validation. They are not general real-world accuracy guarantees.
 
-For the evaluation methodology, selected results, interpretation, and limitations, see [`docs/evaluation.md`](docs/evaluation.md).
+For the evaluation methodology, selected results, interpretation, and limitations, see [`docs/evaluation.md`](https://raw.githubusercontent.com/fermat01/peacebuilding-rag-assistant/main/docs/evaluation.md).
 
 ## Problem and Context
 
@@ -363,7 +363,8 @@ The robustness dataset contains 12 adversarial cases covering areas including:
 
 Deterministic propagation tests validate how adversarial retrieved content moves through the RAG pipeline. Live external-judge calibration is treated separately because it depends on external provider availability and API credits.
 
-For methodology, limitations, and the complete public evaluation discussion, see [`docs/evaluation.md`](docs/evaluation.md).
+For methodology, limitations, and the complete public evaluation discussion, see [`docs/evaluation.md`](https://raw.githubusercontent.com/fermat01/peacebuilding-rag-assistant/main/docs/evaluation.md).
+
 
 ## Representative API Examples
 
@@ -457,7 +458,8 @@ This is a portfolio/research implementation and has not undergone an independent
 
 A public internet-facing deployment requires additional deployment-specific controls such as rate limiting, request limits, centralized secret management, network controls, monitoring, backups, alerting, and authentication/authorization where the use case requires them.
 
-For the public security and robustness discussion, see [`docs/security.md`](docs/security.md).
+For the public security and robustness discussion, see [`docs/security.md`](https://raw.githubusercontent.com/fermat01/peacebuilding-rag-assistant/main/docs/security.md).
+
 
 ## Public Repository Structure
 
