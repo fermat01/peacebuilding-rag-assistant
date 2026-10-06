@@ -10,6 +10,24 @@ Built as an end-to-end AI Engineering project covering document ingestion, vecto
 >
 > This repository is a public technical showcase of the project. The complete application source code is maintained in a private repository. Architecture, engineering decisions, evaluation methodology, selected results, and representative API examples are provided here for technical review.
 
+
+
+<br>
+
+<p align="center">
+  <img
+    src="docs/images/ui_peace_01.png"
+    alt="System architecture"
+    width="650"
+  />
+</p>
+
+Peacebuilding Knowledge Assistant interface with a RAG-generated answer and verifiable sources
+
+<br>
+
+
+
 ## Highlights
 
 - Multilingual French/English RAG
