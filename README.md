@@ -16,7 +16,7 @@ Built as an end-to-end AI Engineering project covering document ingestion, vecto
 
 <p align="center">
   <img
-    src="docs/images/ui_peace_01.png"
+    src="docs/images/ui_peace_test.png"
     alt="System architecture"
     width="650"
   />
